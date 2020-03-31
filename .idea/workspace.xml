@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf22512e-7a8e-4ac2-956e-bcbe3e5f8cdc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/redis/redis4/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/redis4/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/mysql5.7/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql5.7/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/mysql5.7/privileges.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql5.7/privileges.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/redis/redis4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/redis/redis4" />
+    </key>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -39,13 +44,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="mysql5.7" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="50" key="CommitChangelistDialog2" timestamp="1585565833561">
+    <state x="312" y="50" key="CommitChangelistDialog2" timestamp="1585638305684">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="312" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585565833561" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1585619028194">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state x="312" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585638305684" />
+    <state x="320" y="181" key="Vcs.Push.Dialog.v2" timestamp="1585638308263">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="181" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585638308263" />
     <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1585619028194" />
   </component>
 </project>
