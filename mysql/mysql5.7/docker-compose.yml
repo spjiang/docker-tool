@@ -11,4 +11,4 @@ services:
       - /data/tool/mysql/conf:/etc/mysql:rw
       - /data/tool/mysql/log:/var/log/mysql:rw
     ports:
-      - "3306:3306"
+      - "3336:3306"
