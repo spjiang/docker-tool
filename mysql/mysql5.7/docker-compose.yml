@@ -7,8 +7,8 @@ services:
       dockerfile: ./Dockerfile
     restart: always
     volumes:
-      - /data/tool/mysql/data:/var/lib/mysql:ro
-      - /data/tool/mysql/conf:/etc/mysql:ro
-      - /data/tool/mysql/log:/var/log/mysql:ro
+      - /data/tool/mysql/data:/var/lib/mysql:rw
+      - /data/tool/mysql/conf:/etc/mysql:rw
+      - /data/tool/mysql/log:/var/log/mysql:rw
     ports:
       - "3306:3306"
