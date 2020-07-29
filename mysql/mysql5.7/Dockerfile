@@ -8,9 +8,9 @@ FROM mysql:5.7.20
 COPY setup.sh /mysql/setup.sh
 COPY schema.sql /mysql/schema.sql
 COPY privileges.sql /mysql/privileges.sql
-VOLUME /data/tool/mysql5.7/data /var/lib/mysql
-VOLUME /data/tool/mysql5.7/conf /etc/mysql
-VOLUME /data/tool/mysql5.7/log /var/log/mysql
+VOLUME /data/tool/mysql/data /var/lib/mysql
+VOLUME /data/tool/mysql/conf /etc/mysql
+VOLUME /data/tool/mysql/log /var/log/mysql
 
 #设置容器启动时执行的命令
 CMD ["sh", "/mysql/setup.sh"]
