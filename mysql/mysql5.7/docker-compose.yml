@@ -2,13 +2,12 @@ version: "3"
 services:
   mysql:
     container_name: mysql5.7
-    build:
-      context: ./
-      dockerfile: ./Dockerfile
+    image: mysql5.7
     restart: always
     volumes:
       - /data/tool/mysql/data:/var/lib/mysql
       - /data/tool/mysql/conf:/etc/mysql
       - /data/tool/mysql/log:/var/log/mysql
+      #- ./my.cnf:/etc/mysql/my.cnf:ro
     ports:
-      - "3336:3306"
+      - "3366:3306"
