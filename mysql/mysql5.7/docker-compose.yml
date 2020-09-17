@@ -5,9 +5,9 @@ services:
     image: mysql5.7
     restart: always
     volumes:
-      - /data/tool/mysql/data:/var/lib/mysql
-      - /data/tool/mysql/conf:/etc/mysql
-      - /data/tool/mysql/log:/var/log/mysql
+      - /opt/local/www/data/mysql/data:/var/lib/mysql
+      - /opt/local/www/data/mysql//conf:/etc/mysql
+      - /opt/local/www/data/mysql/log:/var/log/mysql
       #- ./my.cnf:/etc/mysql/my.cnf:ro
     ports:
       - "3366:3306"
