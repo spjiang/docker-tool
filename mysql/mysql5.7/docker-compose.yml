@@ -6,7 +6,7 @@ services:
     restart: always
     volumes:
       - /opt/local/www/data/mysql/data:/var/lib/mysql
-      - /opt/local/www/data/mysql//conf:/etc/mysql
+      - /opt/local/www/data/mysql/conf:/etc/mysql
       - /opt/local/www/data/mysql/log:/var/log/mysql
       #- ./my.cnf:/etc/mysql/my.cnf:ro
     ports:
